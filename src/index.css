@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tab {
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar,
+.tab::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+/* :root {
+  --gradient-bar: #34CAA5;
+  --purple: #6160DC;
+  --blue: #54C5EB;
+  orange: #FFB74A;
+  34CAA5
+  red: #FF4A55;
+  gradient-red: #ED544E1F;
+  gradient-green: #34CAA51F;
+  alert-error: #ED544E;
+  alert-success: #66C87B;
+  font: 'Plus Jarkata sans', 'Inter';
+  grey: #898989;
+  bl: #3A3F51;
+  --heading-color: #26282C;
+  --orders: #737373;
+  --trends: #525252;
+  --search-box: #A3A3A3;
+} */
+

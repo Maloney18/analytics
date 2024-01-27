@@ -1,0 +1,15 @@
+.heading {
+    @apply font-semibold text-heading;
+}
+
+.base-style {
+    @apply bg-white rounded-2xl p-3 md:p-5 font-primary;
+}
+
+.resp {
+    @apply w-vw md:w-full;
+}
+
+.hov {
+    @apply cursor-pointer hover:bg-line transition duration-500 ease-in-out;
+}
